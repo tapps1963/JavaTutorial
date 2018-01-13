@@ -1,3 +1,4 @@
+package mypackage;
 
 public class Date { // Name of the Class is a noun - a thing
 

@@ -1,3 +1,4 @@
+package mypackage;
 
 public class MyClasses {
 
@@ -9,5 +10,6 @@ public class MyClasses {
 
 		//System.out.println(birthday.toString()); // The explicit way
 		System.out.println(birthday); // The quicker way
+		//
 	}
 }
