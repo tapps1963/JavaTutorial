@@ -9,6 +9,7 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.border.BevelBorder;
 
 public class CelciusConverter {
 
@@ -45,7 +46,7 @@ public class CelciusConverter {
 	private void initialize() {
 		frmCelciusConverter = new JFrame();
 		frmCelciusConverter.setTitle("Celcius Converter");
-		frmCelciusConverter.setBounds(100, 100, 241, 136);
+		frmCelciusConverter.setBounds(100, 100, 387, 72);
 		frmCelciusConverter.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		txtTempFrom = new JTextField();
@@ -78,18 +79,16 @@ public class CelciusConverter {
 			groupLayout.createParallelGroup(Alignment.LEADING)
 				.addGroup(groupLayout.createSequentialGroup()
 					.addContainerGap()
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-						.addComponent(txtTempTo, Alignment.TRAILING, 0, 0, Short.MAX_VALUE)
-						.addComponent(btnConvert, 0, 0, Short.MAX_VALUE)
-						.addComponent(txtTempFrom, GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE))
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addGroup(groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(lblNewLabel))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(6)
-							.addComponent(lblFahrenheit)))
-					.addContainerGap(86, Short.MAX_VALUE))
+					.addComponent(txtTempFrom, GroupLayout.PREFERRED_SIZE, 71, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(lblNewLabel)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(btnConvert, GroupLayout.PREFERRED_SIZE, 84, Short.MAX_VALUE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(txtTempTo, GroupLayout.PREFERRED_SIZE, 78, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(lblFahrenheit)
+					.addContainerGap())
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -97,18 +96,11 @@ public class CelciusConverter {
 					.addContainerGap()
 					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 						.addComponent(txtTempFrom, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-						.addComponent(lblNewLabel))
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addGroup(groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(btnConvert)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(txtTempTo, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap(15, Short.MAX_VALUE))
-						.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(lblFahrenheit)
-							.addGap(20))))
+						.addComponent(lblNewLabel)
+						.addComponent(btnConvert)
+						.addComponent(lblFahrenheit)
+						.addComponent(txtTempTo, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(42))
 		);
 		frmCelciusConverter.getContentPane().setLayout(groupLayout);
 	}
