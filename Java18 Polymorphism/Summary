@@ -1,0 +1,16 @@
+Summary
+
+Compile-time type vs Run-time type - satisfy the compiler first
+
+Dynamic method binding - call the method from the object that you actually 
+have, not the method from the Compile-time class
+
+Write methods that can take different kinds of objects based on the data type
+of the parameter, i.e. a method that wants you to pass an Animal, you can 
+pass anything that IS A Animal. (Polymorphism)
+
+You can use the instance operator to determine what kind of object you
+have at runtime.
+
+The equals method - you should override this method. It is expected to be in
+your classes

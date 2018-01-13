@@ -1,0 +1,17 @@
+Summary
+
+Class variables and methods- belong to the class - static.
+
+Instance variables and methods - belong to the object <dynamic>.
+
+Static methods - belongs to the class and are called from the name of the class.
+	double result = Math.sqrt(100);		// static method call of the class
+	int myMonth = birthday.getMonth();	// dynamic method call from an object
+	
+this - a reference variable to the object that was used to all the method.
+this - does not exist in a static method - no object was used - the name of the class
+       was used.
+       
+Static methods can only call other static methods.
+
+Dynamic methods can call other dynamic methods AND can call static methods.

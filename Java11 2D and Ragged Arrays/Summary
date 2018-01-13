@@ -1,0 +1,8 @@
+Summary
+
+Java Arrays can be 2-D often called tables, or have higher dimension
+
+The multi-dimensional Arrays knows how many elements they have in each
+dimension. It can get difficult to work with multi-dimensional Arrays.
+
+Arrays might be rectangular or 'ragged'.

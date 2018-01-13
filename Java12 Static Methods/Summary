@@ -1,0 +1,14 @@
+Summary
+
+Java methods must have:
+  Return type - my be void
+  Name - using camelCase - containing a verb - the do something
+  Parameter list
+  
+  For now - public static
+  
+Methods should perform one task that matches their name.
+
+Can be used to break more complex problems into easier problems.
+
+Methods shouldn't be more than a page long - rule of thumb.

@@ -1,0 +1,17 @@
+Classes and Objects
+
+It's time to move beyond the use of primatives
+
+A class is a data type: Abstract Data Type, User Defined Data Type
+
+An object is an instance of a class
+
+There can be many objects created from one class, just as there can
+be many int variables, double variables, etc.
+
+Think of the class as the blueprint, and the objects are the things
+built from the blueprint
+
+This is different from what you've seen before but it is intentionally
+designed to be not difficult... Let's just go look at how to do it.
+

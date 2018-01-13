@@ -1,0 +1,17 @@
+Summary
+
+Other than a class the only identifier that starts with a CapitalLetter.
+
+An Interface contains public abstract method signatures.
+
+Interfaces do NOT have concrete methods, data, constructors, toString...
+
+Interfaces do 'impose' something on all classes that agree to implement them.
+
+The name of an interface can be used as a compile-time type.
+
+This is another form of polymorphism. Write a method that takes and object
+that is from a class that implements an interface.
+
+In this type of polymorphism, we know something about the object, but we
+don't know anything about its inheritance.

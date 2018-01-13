@@ -1,0 +1,17 @@
+Summary
+
+Any class that has on or more abstract methods is an abstract class.
+
+You cannot make an instance of an abstract class.
+
+Abstract classes still have concrete methods, data, constructors, toString...
+
+Abstract classes 'impose' something on all of the sub classes.
+
+Abstract methods must be overridden by the sub-class.
+
+The name of an abstract class can still be used as a compile-time type.
+
+You can use abstract methods to design the functionality of the sub-class
+and then have someone else write the code. (This is mostly done with 
+"interfaces" a future topic.)

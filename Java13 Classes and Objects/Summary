@@ -1,0 +1,41 @@
+Summary
+
+public class Date { 								// Name of the Class is a noun - a thing
+
+	===================================================================
+	1. Instance Variables
+	===================================================================
+	private int month; 							// Instance variables are private
+	
+	
+	===================================================================
+	2. Constructor Method
+	===================================================================
+	public Date(int m) { 	      				// Constructor Method(s)
+		month = m;								// no return type
+	}											// matches the Class name
+												// sets the initial state of the object
+																							
+	===================================================================
+	3. Accessors and Mutators (Getters and Setters) - Methods
+	===================================================================
+	public int getMonth() { 						// accessor method (getters)
+		return month;							// one per instance variable
+	}
+
+	public void setMonth(int m) { 				// mutator method (setter)
+		if (m >= 1 && m <= 12) {					// one per instance variable
+			month = m;
+		}
+	}
+
+	===================================================================
+	4. toString Method
+	===================================================================
+	public String toString() {
+		String result;							// returns a String representation of the Object
+		result = month + "/" + day + "/" + year;	// all of the instance variables needs to
+		return result;							// be in the String
+	}
+
+}

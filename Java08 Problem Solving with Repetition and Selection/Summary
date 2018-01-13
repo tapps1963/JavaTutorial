@@ -1,0 +1,18 @@
+Summary
+
+Always have some test cases that demonstrate the expected results for
+the problem you are solving.
+
+Develop your solution progressively.
+
+Compile frequently - isolate compile errors.
+
+Use the debugger to find logical errors - the program cannot hide 
+anything from you.
+
+Use 'for' loops for counter controlled loops.
+
+Use short-cut operators where possible.
+
+Choose variable name carefully.
+

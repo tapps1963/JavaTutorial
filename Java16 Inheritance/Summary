@@ -1,0 +1,19 @@
+Summary
+
+Java is a single-inheritance language; each class has one parent.
+
+Child classes know about their parent, but parent classes do not know about their
+children.
+
+The IS A relationship is used for design using inheritance - in Java the keywords is
+extends.
+
+The first line of every constructor is a call to the parent
+constructor, if you don't put it there, Java will do it for you.
+
+Object is the universal super class.
+
+You can override inherited methods-some you are expected to override
+	(Thank but no-thanks) toString, equals
+	
+	

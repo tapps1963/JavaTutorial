@@ -1,0 +1,21 @@
+Summary
+
+Java Arras know how many elements the have .length
+
+Space for an Array is allocated dynamically at run-time
+
+The indexes of an array start with 0 (zero)
+  Eg. an Array with 10 elements has indexes 0-9
+  
+Arrays can be of any data type - elements are used if they
+are simple variables of that type
+
+Array elements are initialized to 0, 0.0, false or null
+
+A variable can be used in the allocation of space for an array
+
+for (int i = 0; i < myArray.length; i++) {
+	array[i] = ....
+	
+There is a loop in Java for reading arrays. Enhanced for loop, for each
+	for( double element : array)

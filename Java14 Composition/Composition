@@ -1,0 +1,12 @@
+Composition
+
+A class is a data type: Abstract Data Type, User Defined Data Type
+
+An object is an instance of a class
+
+Recall the "HAS A" relationship
+
+Composition: A XXX is composed of a YYY and a ZZZ
+
+A Contact HAS A Name and an Address
+

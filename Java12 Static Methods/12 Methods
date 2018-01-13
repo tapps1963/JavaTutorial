@@ -1,0 +1,17 @@
+Methods
+
+In other languages, functional modules of code are called Functions,
+sub-Functions, subroutines.
+
+In Java none of those words are used - they are called Methods.
+
+The "main" method is the entry point into all Java applications.
+
+We can add more methods within the scope of a single class.
+
+In Java there are static methods, and methods that belong to 
+objects. We haven't looked at Classes and Objects yet, so there is 
+nothing to compare to "static" methods in our learning path.
+
+You don't really know what the static means, but for now, just
+understand that static methods are called from static methods.

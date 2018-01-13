@@ -1,0 +1,13 @@
+Universal Base Class - Object
+
+All classes inherit from Object
+
+Object has no data members, but does have several methods that are inherited by all
+classes
+
+Some of the inherited methods - you are expected to override them
+	(Thanks but no-thanks)
+
+public String toString()
+
+public boolean equals(Object obj)
